@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="?attr/colorOnSurfaceInverse"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/tv_SuperName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toStartOf="@+id/iv_Del"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txt_superName" />
+
+    <TextView
+        android:id="@+id/tv_Editorial"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        app:layout_constraintEnd_toEndOf="@+id/tv_SuperName"
+        app:layout_constraintStart_toStartOf="@+id/tv_SuperName"
+        app:layout_constraintTop_toBottomOf="@+id/tv_SuperName"
+        tools:text="@string/txt_editorial" />
+
+    <ImageView
+        android:id="@+id/iv_Fav"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/iv_fav"
+        android:src="@drawable/favorite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_Del"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/iv_del"
+        app:srcCompat="@drawable/delete_24px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/iv_Fav" />
+</androidx.constraintlayout.widget.ConstraintLayout>

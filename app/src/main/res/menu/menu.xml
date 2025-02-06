@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opt_add_editorial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/txt_opt_add_editorial" />
+
+    <item
+        android:id="@+id/opt_add_superhero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/txt_opt_add_superhero" />
+</menu>

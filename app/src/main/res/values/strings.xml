@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ActDemo04</string>
+    <string name="txt_editorial">Editorial</string>
+    <string name="txt_opt_add_editorial">Añadir Editorial</string>
+    <string name="txt_opt_add_superhero">Añadir Superhéroe</string>
+
+    <string name="txt_empty_field">Este campo no puede estar vacío</string>
+    <string name="txt_superName">Nombre de súper</string>
+    <string name="txt_realName">Nombre real</string>
+    <string name="txt_favorite">Favorito</string>
+    <string name="txt_save">Guardar</string>
+    <string name="iv_fav">Imagen favorito</string>
+    <string name="iv_del">Imagen borrar</string>
+    <string name="txt_delete">¿Eliminar a %1$s?</string>
+    <string name="txt_doit">Do it!</string>
+    <string name="alert_title_error">Error</string>
+    <string name="alert_description_error">Seleccione una editorial</string>
+</resources>
